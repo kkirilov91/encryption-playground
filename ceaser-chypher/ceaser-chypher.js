@@ -2,7 +2,7 @@ var CeaserChypher = function() {
 
 	var generateKey = function() {
 		return Math.floor(Math.random() * 127);
-	}
+	};
 
 	return {
 		generateKey: generateKey,
